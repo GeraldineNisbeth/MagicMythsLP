@@ -45,14 +45,15 @@
   .btn-green {
     text-decoration: none;
     color: white;
-    background-color: #5C9834;
-    border: 5px solid white;
-    padding: 12px 34px;
+    padding: 20px 34px;
     font-size: 16px;
     background: #5C9834;
     position: relative;
     cursor: pointer;
     border-radius: 10px;
+    background-image: url(images/botonJugar.jpg);
+    background-size: cover;
+    background-position:center;
   }
   
   .btn-action:hover {
@@ -62,7 +63,7 @@
   }
   
   .row {
-    margin-top: 6%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-evenly;
   }
@@ -71,7 +72,7 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 40px;
   }
 /* ---------- RESPONSIVE GENERAL ---------- */
 @media(max-width: 700px) {
@@ -89,16 +90,6 @@
     background-size: cover;
     position: relative;
 }
-/*
-.text-box-center {  
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }*/
 .text-box-header {
     position: absolute;
     width: 90%;
@@ -107,6 +98,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.text-box-header img {
+  width: 100%;
 }
   
 .text-box-header h1 {
@@ -132,10 +126,10 @@ color: white;
     background-size: cover;
     position: relative;
 }
-  
+
 .text-box-jugar h3 {
-    font-size: 40px;
-    color: #6ea92d;
+  font-size: 40px;
+  color: #6ea92d;
 }
 
 .text-box-jugar img {
@@ -156,19 +150,25 @@ color: white;
     position: relative;
 }
 .masinfo-section p {
-    /* padding-top: 45%; */
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
-.text-box-info {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: left;
-    height: 90vh;
+.text-box-info h3 {
+  font-size: 40px;
+  color: #6ea92d;
+}
+.text-box-info img {
+  width: 100%;
+  object-fit: contain;
 }
 .align-end {
     margin: 48px 5px;
+}
+.row-card {
+  margin-top: 6%;
+  padding: 0 12px 12px 12px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .card-col {
   flex-basis: 31%;
@@ -180,9 +180,16 @@ color: white;
 }
 
 .card-col img {
-  width: 80%;
+  width: 100%;
   object-fit: contain;
-  border-radius: 10px;
+}
+.img-border {
+  border: 12px groove #6ea92d;
+  border-radius: 15px;
+}
+.img-border-gray {
+  border: 12px groove #80817eea;
+  border-radius: 15px;
 }
 
 .card-col h3 {
@@ -196,15 +203,18 @@ color: white;
   padding: 0 12px 24px 0px;
   text-align: justify;
   font-size: large;
+  margin-left: 24px;
 }
 
 .img-number {
-  flex-basis: 20%;
+  flex-basis: 10%;
+  margin-top: 7px;
 }
 
 .subtitle-card {
   flex-basis: 80%;
-  text-align: left;
+  text-align: center;
+  opacity: initial;
 }
 
 .subtitle-card h3{
@@ -224,10 +234,10 @@ color: white;
     position: relative;
 }
 .agradecimientos-section img {
-  width: 600px;
+  width: 50%;
 }
 .text-box-agradec img{
-  width: 70px;
+  width: 5%;
   padding-top: 45vh;
 }
 
