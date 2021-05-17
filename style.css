@@ -194,12 +194,14 @@ color: white;
   object-fit: contain;
 }
 .img-border {
-  border: 12px groove #6ea92d;
-  border-radius: 15px;
+  background-size: 400%;
+  box-shadow: 0 0 20px #60a532,0 0 40px #a0a39f;
+  border: 5px solid #4d7e2c;
 }
 .img-border-gray {
-  border: 12px groove #80817eea;
-  border-radius: 15px;
+  background-size: 400%;
+  box-shadow: 0 0 20px #6f706eea,0 0 40px #91928f;
+  border: 5px solid #656664ea;
 }
 
 .card-col h3 {
