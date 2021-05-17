@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Electrolize', sans-serif;
+    font-family: 'sweraFont', sans-serif;
   }
   
   html {
@@ -32,34 +32,30 @@
   }
   
   .btn-action {
-    display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid white;
-    padding: 12px 34px;
+    padding: 25px 60px;
     font-size: 16px;
-    background: transparent;
+    background: #5C9834;
     position: relative;
     cursor: pointer;
+    border-radius: 12px;
+    background-image: url(images/botonVideo.jpg);
+    background-size: cover;
+    background-position:center;
   }
   .btn-green {
     text-decoration: none;
     color: white;
-    padding: 20px 34px;
+    padding: 27px 50px;
     font-size: 16px;
     background: #5C9834;
     position: relative;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 12px;
     background-image: url(images/botonJugar.jpg);
     background-size: cover;
     background-position:center;
-  }
-  
-  .btn-action:hover {
-    border: 1px solid #5C9834;
-    background: #5C9834;
-    transition: 0.7s;
   }
   
   .row {
@@ -81,6 +77,24 @@
   
     }
   }
+/* ---------- TIPO DE LETRA ---------- */
+
+/* SWERA Regular version */
+@font-face {
+  font-family: 'sweraFont';
+  src: url(fonts/Swera\ Regular\ Demo.otf)
+       format('opentype');
+
+}
+
+/* SWERA Bold version */
+@font-face {
+  font-family: 'sweraFont';
+  src: url(fonts/Swera\ Bold\ Demo.otf)
+       format('opentype');
+  font-weight: bold;
+}
+
 /* ---------- HEADER ---------- */
 .header-section {
     min-height: 100vh;
@@ -108,7 +122,7 @@
 }
   
 .text-box-header p {
-margin: 10px 0 40px; /*10 top, 0 left-right 40 bottom*/
+margin: 40px 150px 40px;
 font-size: 20px;
 color: white;  
 }
@@ -148,10 +162,6 @@ color: white;
     background-position: center; 
     background-size: cover;
     position: relative;
-}
-.masinfo-section p {
-    margin-left: 50px;
-    font-size: 25px;
 }
 .text-box-info h3 {
   font-size: 40px;
@@ -204,6 +214,7 @@ color: white;
   text-align: justify;
   font-size: large;
   margin-left: 24px;
+  font-family: 'Electrolize', sans-serif;
 }
 
 .img-number {
@@ -221,7 +232,7 @@ color: white;
   padding-top: 0px;
   margin-bottom: 15px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 /*--------- AGRADECIMIENTOS ------------*/
@@ -245,4 +256,7 @@ color: white;
   padding-top: 50px;
   font-size: 40px;
   color: #6ea92d;
+}
+.text-box-agradec  p {
+  font-family: 'Electrolize', sans-serif;
 }
