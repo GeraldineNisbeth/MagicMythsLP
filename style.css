@@ -195,13 +195,13 @@ color: white;
 }
 .img-border {
   background-size: 400%;
-  box-shadow: 0 0 20px #60a532,0 0 10px #60a532;
-  border: 5px solid #4d7e2c;
+  box-shadow: 0 0 10px 10px #60a532;
+  border: 5px solid #60a532;
 }
 .img-border-gray {
   background-size: 400%;
-  box-shadow: 0 0 20px #6f706eea,0 0 10px #91928f;
-  border: 5px solid #656664ea;
+  box-shadow: 0 0 10px 10px #91928f;
+  border: 5px solid #91928f;
 }
 
 .card-col h3 {
